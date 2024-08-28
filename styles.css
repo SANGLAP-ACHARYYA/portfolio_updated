@@ -1,0 +1,136 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  h3, h4, h5 {
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 15px;
+  }
+  
+  textarea, input[type="text"], input[type="email"], input[type="url"], select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Portfolio Container */
+  #generated-portfolio {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in;
+    min-height: 100px;
+    min-width: 100%;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  /* Style Variations */
+  .default-style {
+    background-color: white;
+    color: black;
+  }
+  
+  .modern-style {
+    background-color: #282c34;
+    color: white;
+  }
+  
+  .classic-style {
+    background-color: #f4f4f4;
+    color: #333;
+    border: 2px solid #333;
+  }
+  
+  /* Project Section */
+  #project-section h5 {
+    color: #0056b3;
+  }
+  
+  /* LinkedIn Styling */
+  a {
+    color: #0077b5; /* LinkedIn Blue */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Skills Section */
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .skill-item {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+  
+  /* Experience Section */
+  #experience-section {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    textarea, input[type="text"], input[type="email"], input[type="url"], select {
+      width: 100%;
+    }
+    
+    button {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+  
+  /* Button for Adding Projects */
+  #add-project {
+    background-color: #28a745;
+  }
+  
+  #add-project:hover {
+    background-color: #218838;
+  }
+  
+  /* Download page styling */
+  .pdf-font-color {
+    color: #2c3e50; /* You can change this to your preferred font color for PDF */
+  }
+  
